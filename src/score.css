@@ -1,0 +1,42 @@
+
+
+.score-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f28c28;
+  border: 3px solid #8B4000;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 1.2rem;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.score-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Press Start 2P", system-ui;
+}
+.score-value {
+  text-align: center;
+  color: #fff;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Press Start 2P", system-ui;
+    height: 100%; /* Ensure it takes full height */
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1; /* Ensure proper vertical centering */
+    padding: 5px 0; /* Add slight padding if needed */
+}

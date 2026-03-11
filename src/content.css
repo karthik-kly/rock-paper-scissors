@@ -1,0 +1,118 @@
+.circle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 3rem;
+  gap: 12rem;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000;
+  padding: 5px;
+  background-color: #f28c28;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.img:hover {
+  cursor: pointer;
+  transform: scale(1.4); /* Increases size by 10% */
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.img.rock {
+  position: absolute;
+  top: 12rem;
+}
+
+.instruction {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: 18rem;
+}
+
+.loading-text {
+  font-family: monospace;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: 15rem;
+}
+
+/* For Step 3 */
+
+/* Rock Paper Scissors Game Styling */
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 7rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+}
+/* Style for each player's choice */
+
+.choice-text {
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", system-ui;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Adds shadow to the text */
+  margin-bottom: 4rem;
+}
+
+.result-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000;
+  padding: 5px;
+  background-color: #f48c06;
+
+}
+.final-result {
+    font-family: "Press Start 2P", system-ui;
+}
+
+.play-again-btn {
+    background-color: #f28c28; /* Warm orange */
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #8B4000; /* Darker brown for contrast */
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 1.3rem;
+}
+
+.play-again-btn:hover {
+    background-color: #d9791e; /* Darker orange */
+    transform: scale(1.05); /* Slight pop effect */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.play-again-btn:active {
+    transform: scale(0.95); /* Press effect */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
